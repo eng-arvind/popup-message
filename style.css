@@ -1,0 +1,75 @@
+.popup
+{
+ padding: 10px;
+ font-family: cursive;
+ border: 1px solid black;
+ text-align: center;
+ cursor: pointer;
+ width: 200px;
+ background-color: chartreuse;
+ color: darkblue;
+ font-size: 20px;
+ text-shadow: 2px 2px darkorange;
+
+}
+.close
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    font-size: 0.8em;
+
+}
+.output
+{
+    position: absolute;
+    background-color: #ddd;
+    left: 35%;
+    width: 30%;
+    top: 10%;
+    padding: 15px;
+    border: 1px solid black;
+    min-height: 25%;
+
+}
+.message
+{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 20px;
+
+}
+.hide
+{
+    display: none;
+}
+.write
+{
+    padding: 10px;
+    font-family: cursive;
+    border: 1px solid black;
+    color: white;
+    width:20%;
+    height:25%;
+    margin-top: 20px;
+    word-wrap: break-word;
+    word-break: break-all;
+    background-color: rgb(48, 44, 97);
+    font-size: 20px;
+}
+.show
+{
+  display: grid;
+  margin-left: 6%;
+  margin-top: 20px;
+  width: 85px;
+  height: 40px;
+  padding: 9px;
+  font-size: 19px;
+  border-radius: 10px;
+  background-color: lawngreen;
+  border: 1px;
+
+}
